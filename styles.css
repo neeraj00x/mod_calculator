@@ -118,7 +118,6 @@ a:link {
 a:hover {
     font-size: 140%;
     transform: translate3d(4px);
-    display: none;
 }
 p{
     font-size: 15px;
