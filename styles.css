@@ -5,7 +5,7 @@
     user-select: none;
     display: grid;
     justify-content: space-around;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     overflow: auto;
     margin: auto;
     width: 60%;
@@ -21,7 +21,7 @@
 
 .topics{
     margin: 5px auto 20px auto;
-    width: 400px;
+    width: 350px;
     float: left;
 }
 
