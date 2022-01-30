@@ -45,8 +45,8 @@
     grid-gap: 4px 0px;
     background-color: #137f90;
     padding: 25px 0px 10px 0px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    /* border-top-right-radius: 5px;
+    border-top-left-radius: 5px; */
 }
 .grid-item {
     padding: 5px 5px;  
@@ -90,19 +90,22 @@ input[type=text] {
     width: 100%;
     padding: 10px 20px;
     box-sizing: border-box;
-    border: 3px solid #ddd;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
 }
+#Input{
+    border: 5px solid #ddd;
+}
+#Input:focus{
+    border: 5px solid #137f90;
+}
 input[type=text]:focus {
-    border: 3px solid #137f90;
+    border: 5px solid #137f90;
 }
 #Result {
     font-size: 29px;
-    padding: 10px 20px;
-    border:2px black;
-    text-align: right;
+    border:5px solid#137f90;
 }
 .section{
     background: #137f90;
