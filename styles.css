@@ -15,20 +15,6 @@
     color: #333333;
 }
 
-/* CSS for dark mode */
-@media (prefers-color-scheme: dark) {
-    .container {
-        background-color: #666666;
-        color: white;
-    }
-}
-
-/* CSS for light mode */
-@media (prefers-color-scheme: light) {
-    .container {
-        background-color: white;
-    }
-}
 @media only screen and (max-width: 900px) {
     .topics {
         width: 100%;
