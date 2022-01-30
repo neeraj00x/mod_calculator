@@ -32,7 +32,7 @@
     overflow: hidden;
     border-radius: 10px;
     -webkit-box-shadow: 0 0 0 1px rgb(0 0 0 / 5%), 0 2px 3px 0 rgb(0 0 0 / 10%);
-    box-shadow: 0 0 0 1px rgb(0 0 0 / 5%), 0 2px 3px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 0 0px 0px rgb(0 0 0/ 10%), 0 10px 10px 0 rgb(0 0 0 / 30%);
     background: #fff;
     text-align: center;
     border-left: 3px solid red;
@@ -95,17 +95,18 @@ input[type=text] {
     outline: none;
 }
 #Input{
-    border: 5px solid #ddd;
+    border: solid #137f90;
+    border-width: 10px 10px;
 }
 #Input:focus{
-    border: 5px solid #137f90;
+    border: solid #116e7c;
+    border-width: 10px 10px;
 }
-input[type=text]:focus {
-    border: 5px solid #137f90;
-}
+
 #Result {
     font-size: 29px;
-    border:5px solid#137f90;
+    border: solid#137f90;
+    border-width: 0px 10px;
 }
 .section{
     background: #137f90;
@@ -124,8 +125,8 @@ a:hover {
     transform: translate3d(4px);
 }
 p{
-    font-size: 15px;
-    padding: 4px 12px;
+    font-size: 17px;
+    padding: 4px 17px;
     margin: 0px;
     text-align: justify;
 }
